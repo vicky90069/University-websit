@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    /* position: relative; */
+}
+
+
+#logo{
+    float: left;
+    cursor: pointer;
+    margin: 15px 0px 0px 30px;
+    padding: 20px 30px 40px 0px ;
+}
+
+.header ul {
+    text-align: center;
+    display: flex;
+    float: right;
+    margin-top: 32px;
+    margin-right: 30px;
+
+
+}
+
+.header ul li{
+   list-style: none;
+
+}
+
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.header h1{
+    text-align: center;
+    padding-top: 190px;
+    font-size: 50px;
+    color: white;
+}
+
+.header p{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    margin-left: 468px;
+    width: 40%;
+}
+
+.buttom{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    padding-right:40px;
+}
+
+
+
+#buttom{
+   
+    cursor: pointer;
+    height: 40px;
+    /* display: block; */
+    width: 220px;
+    /* background-color: rgba(rgb(255, 69, 0,0.2)); */
+    /* border: 0.3px solid orangered; */
+    color: white;
+    text-align: center; 
+    align-items: center;
+    /* border-radius: 3px; */
+    transition: 0.7s;
+    /* font-weight: bold; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: transparent;
+    /* outline:0.3px solid orangered; */
+    
+
+}
+
+#buttom:hover{
+background-color: orangered;
+
+}
+
+
+/* ----------------------------------------------------course-------------------------------------------------- */
+
+.course{
+   width: 100%;
+   text-align: center;
+   padding-top: 50px;
+
+}
+
+.course h1{
+    font-size: 30px;
+}
+
+.course p{
+    padding-top: 10px;
+}
+
+.row{
+    column-count: 3;
+    margin-top: 50px;
+    column-gap: 70px;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+
+    /* width: 80%; */
+    margin-left: 55px;
+    margin-right: 55px;
+    /* background-color: pink; */
+
+}
+
+.col{
+    padding-top: 15px;
+    height: 150px;
+    background-color: rgb(253, 213, 220);
+    border-radius: 8px;
+box-sizing: border-box;
+/* border: 2px solid red; */
+cursor: pointer;
+transition: 1s;
+}
+
+
+.col:hover{
+/* box-shadow: 0,0,20px 0px rgba(0,0,0,0.2); */
+background-color:rgba(226, 0,0, 0.6);
+}
+
+
+
+/* --------------------------------------------------------campus------------------------------------------------------ */
+
+.campus{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    /* display: flex; */
+}
+#campus{
+    display: flex;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 90px;
+    /* background-color: rgba(226, 0,0, 0.7); */
+    /* opacity: 5; */
+    
+}
+ h3{
+    cursor: pointer;
+}
+/* 
+h3:hover{
+   /* background-color:rgba(252, 18, 18) */
+
+
+.campus h1{
+    padding-top: 50px;
+        font-size: 30px;
+    }
+
+.campus p{
+    padding-top: 10px;
+}
+
+.campus1{
+    /* margin-top: 10px; */
+    cursor: pointer;
+    /* display: flex; */
+    /* float: left; */
+    /* margin-right: 350px;  */
+    /* margin-left: 40px; */
+    border-radius: 10px;
+}
+
+
+.campus2{
+    cursor: pointer;
+    /* margin-right: 40px; */
+    position: relative;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+
+}
+
+.campus3{
+    background: rgba(226, 0,0, 0.7);
+    /* border: 2px solid black; */
+    cursor: pointer;
+    overflow: auto;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: 46px;
+/* opacity: 0.3; */
+    border-radius: 10px;
+    background: transparent;
+}
+
+
+.campus3:hover{
+    box-shadow: rgba(0,0,0,0.7);
+    /* background-color:rgba(226, 0,0, 0.7) */
+}
+
+
+/* --------------------------------------------------Facilities----------------------------------------------------------- */
+
+.Facilities{
+    display: inline-block;
+    margin-top: 80px;
+    /* width: 100%; */
+    text-align: center;
+
+}
+
+.Facilities h1{
+    font-size: 35px;
+}
+
+.Facilities p{
+    margin-top: 10px;
+}
+
+#facilities{
+    display: flex;
+    margin-top: 50px;
+    display: inline-block;
+    column-count: 3;
+    width: 85%;
+    column-gap: 80px;
+margin-left: 20px;
+/* border: 2px solid red; */
+}
+
+.facilities-col{
+    text-align: left;
+    /* border-radius: 5px; */
+
+}
+
+
+/* -----------------------------------------------------What our student says----------------------------------------------------- */
+
+.student{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+/* width: 80%; */
+
+}
+
+.student-col .fas {
+    color: orangered;
+    cursor: pointer;
+    /* margin-left: 25px; */
+}
+.student-col .far{
+    color: orangered;
+    cursor: pointer;
+}
+
+.student h1{
+
+    font-size: 35px;
+}
+
+.student p{
+    margin-top: 15px;
+}
+
+.student-col{
+    column-count: 2;
+    column-gap: 80px;
+    margin-top: 50px;
+    width: 90%;
+
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.first-student{
+    margin-top: -15px;
+    height: 157px;
+    background-color: rgb(253, 213, 220);
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+.first-student img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+/* border:1px solid white; */
+float: left;
+}
+
+.first-student p{
+    padding: 15px;
+    /* border: 1px solid rgb(224, 10, 46); */
+    /* padding-left: -10px; */
+    /* padding-right: -80px; */
+
+    /* margin: 15px 5px 0px 5px ; */
+}
+.first-student div h3{
+    text-align: left;
+    margin-top: 25px;
+    word-spacing: 1px;
+    margin-left: 50px;
+}
+
+
+
+.second-student{
+    /* margin-top: -15px; */
+    height: 150px;
+    background-color: rgb(253, 213, 220);
+    border-radius: 10px;
+}
+/* .second-student{
+    
+    padding: 15px;
+    padding-left: 30px;
+} */
+
+.second-student img{
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 100px;
+/* border:2px solid white; */
+float: left;
+}
+
+.second-student div{
+    padding-top: 8px;
+/* border: 2px solid red; */
+margin: 15px;
+/* margin: 15px; */
+}
+
+.second-student div h3{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+/* ---------------------------------------contact us---------------------------- */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 40%;
+    padding: 0;
+}
+
+
+.hero-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    /* cursor: pointer; */
+    transition: 0.5s;
+}
+
+.hero-btn:hover{
+    background: orangered;
+}
+/* .hero-btn{
+     text-decoration: none; 
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+transition: 0.5s;
+    
+}
+
+.hero-btn:hover{
+    background: orangered;
+} /*
+
+
+/* ------------------------------about us------------------------------------ */
+
+
+.about{
+    padding-top: 70px;
+    text-align: center;
+/* padding: 10px; */
+width: 100%;
+
+}
+
+.about h1{
+    font-size: 20px;
+padding: 10px;
+}
+
+.icons .fab{
+/* margin-top:15px; */
+padding-top: 20px;
+margin: 3px;
+cursor: pointer;
+color:orangered;
+/* padding: 15px; */
+
+}
+
+.fa-heart{
+    margin-top: 20px;
+    color: orangered;
+}
+
+
+
+/* ------------------------------------------About us page---------------- */
+
+.sub-header{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,38,0.7),rgba(4,9,30,0.7)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-header h1{
+    /* margin-top: 100px; */
+    padding-top: 210px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sub-header ul {
+    text-align: center;
+    display: flex;
+    float: right;
+    margin-top: 32px;
+    margin-right: 30px;
+
+
+}
+
+.sub-header ul li{
+   list-style: none;
+
+}
+
+
+.sub-header ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top:80px ;
+    padding-bottom: 50px;
+}
+
+.aboutus-col p{
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    width: 480px;
+    /* height: 130px; */
+}
+.aboutus-col a{
+    margin-top: 20px;
+    width: 120px;
+    display: flex;
+    text-decoration: none;
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 10px;
+    /* background-color: orangered; */
+    /* background: transparent; */
+    /* padding-right: 30px; */
+    transition: 1s;
+}
+
+.aboutus-col a:hover{
+      color: white;
+      background: orangered;
+}
+
+.aboutus-imgs{
+    margin-left: 130px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+
+}
+
+
+
+/* -------------------------------------------------course page -------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* -----------------------------------------------------------blog page us------------------------------------------------------------------ */
+.blog-content{
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    width: 80%;
+    /* margin-left: 80px; */
+    margin: auto;
+    height: 1500px;
+    padding:60px 0px;
+    /* text-align: right; */
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 60%;
+    /* float: left; */
+    /* display: inline-block; */
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    width: 60%;
+}
+
+.blog-comment{
+display: flex;
+}
+
+.blog-right{
+    /* flex-grow: 32%; */
+    /* display: flex; */
+    /* float: right; */
+    /* border: 5px solid green;  */
+    /* width: 70%; */
+    width: 387px;
+    margin-left: 780px;
+    text-align: right;
+    margin-top: -1400px;
+    margin-right: 60px;
+}
+
+.blog-right h3{
+    /* border: 1px solid red; */
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 7px 140px 7px;
+    font-size: 16px;
+}
+
+.blog-right div{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: px;
+    color: black;
+}
+
+
+.comment-box{
+    border: 1px solid orangered;
+    width: 60%;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-form{
+     text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background:#ccc;
+    color: black;
+}
+ /* .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: blueviolet;
+
+ } */
+
+
+
+.post-comment{background-color: orangered;
+    padding: 7px;
+    /* background: transparent; */
+    color: white;
+    cursor: pointer;
+}
+
+
+/* -----------------------------------------------------------------------------contact page us---------------------------------------------------- */
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+
+.location iframe{
+    width: 100%;
+
+ } 
+
+.contact-col i{color: orangered;
+    margin: 10px;
+    cursor: pointer;
+    /* margin-top: 5px; */
+    /* width: 100%; */
+
+}
+
+.contact-col div{
+    margin-left: 80px;
+    /* width: auto; */
+    /* margin: ; */
+}
+.row{
+    /* display: flex; */
+    /* width: 80%; */
+    /* border: 2px solid black; */
+    /* width: 20%; */
+    padding-right: 40px;
+}
+
+/* .feedback{
+    /* display: flex; */
+    /* width: 400px; */
+
+    /* margin-left: 200px; */
+    /* width: 50%; */
+
+    /* border: 1px solid red; */
+/* } */ 
